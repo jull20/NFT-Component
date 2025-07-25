@@ -22,7 +22,7 @@ function App() {
             <h3 className='text-preset-3 text-blue-500'>3 days left</h3>
           </div>
         </section>
-        <hr />
+        <hr className='w-full border-0 outline-1 outline-blue-800'/>
         <section className='w-full flex flex-row justify-start items-center gap-x-[16px]'>
           <img className='w-[33px] h-[33px] border-[1px] border-white rounded-full' src="image-avatar.png" alt="image avatar" />
           <h2 className='text-preset-4 text-blue-500'>Creation of <span className='text-white pl-[8px] hover:text-cyan transition duration-400 cursor-pointer'>Jules Wyvern</span></h2>
